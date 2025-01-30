@@ -12,7 +12,17 @@ int main() {
     int populacao; // Populaçao da cidade
     float area; // Área da cidade
     float pib; // PIB da cidade
-    
+    int pontos_turisticos; // Número de pontos turísticos da cidade
 
+    // cadastro das cartas:
+    
+    
+    
+    
+    
+    
+    
+    
+    
     return 0;
 }
