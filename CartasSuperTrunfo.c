@@ -30,6 +30,11 @@ int main() {
     printf("Digite a área da cidade (em km²): ");
     scanf("%f", &area);  // Leitura da área
 
+    printf("Digite o PIB da cidade: ");
+    scanf("%f", &pib);  // Leitura do PIB
+
+    
+
 
 
     
