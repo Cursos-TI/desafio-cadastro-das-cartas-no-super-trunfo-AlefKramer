@@ -36,7 +36,12 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade: ");
     scanf("%d", &pontos_turisticos);  // Leitura dos pontos turisticos
 
-
+    // Exibiçao dos dados das cartas:
+    printf("\nDados da cidade %s (%s):\n", nome, codigo);
+    printf("Populaçao: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f\n", pib);
+    printf("Pontos Turísticos: %d\n", pontos_turisticos);
 
     return 0;
 }
