@@ -17,7 +17,10 @@ int main() {
     // cadastro das cartas:
     printf("Cadastro de Cartas de Cidades\n");
 
-    
+    //solicitar dados da cidade
+    printf("Digite o código da cidade (ex: A01): ");
+
+
     
     
     
