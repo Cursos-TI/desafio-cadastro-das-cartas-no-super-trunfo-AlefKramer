@@ -19,6 +19,8 @@ int main() {
 
     //solicitar dados da cidade
     printf("Digite o código da cidade (ex: A01): ");
+    scanf("%s", codigo);  // Leitura do código da cidade
+
 
 
     
