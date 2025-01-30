@@ -7,8 +7,9 @@
 
 int main() {
     //variaveis para armazenar os dados das cidades
-    char codigo[5]; // codigo da cidade, por exemplo: A01, B02
-    char nome[50]; //nome da cidade
+    char codigo[5]; // Código da cidade, por exemplo: A01, B02
+    char nome[50]; // Nome da cidade
+    int populacao; // Populaçao da cidade
 
     return 0;
 }
