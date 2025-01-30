@@ -24,6 +24,12 @@ int main() {
     printf("Digite o nome da cidade: ");
     scanf(" %[^\n]%*c", nome);  // Leitura do nome da cidade, permitindo espaços
 
+    printf("Digite a população da cidade: ");
+    scanf("%d", &populacao);  // Leitura da população
+
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);  // Leitura da área
+
 
 
     
