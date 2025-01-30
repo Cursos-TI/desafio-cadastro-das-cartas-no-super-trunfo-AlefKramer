@@ -33,18 +33,10 @@ int main() {
     printf("Digite o PIB da cidade: ");
     scanf("%f", &pib);  // Leitura do PIB
 
-    printf("Digite o número de pontos turisticos da cidade: ");
-    scanf("%d", &pontos_turismo); // Leitura dos pontos turisticos
+    printf("Digite o número de pontos turísticos da cidade: ");
+    scanf("%d", &pontos_turisticos);  // Leitura dos pontos turisticos
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
     return 0;
 }
