@@ -15,6 +15,8 @@ int main() {
     int pontos_turisticos; // Número de pontos turísticos da cidade
 
     // cadastro das cartas:
+    printf("Cadastro de Cartas de Cidades\n");
+
     
     
     
