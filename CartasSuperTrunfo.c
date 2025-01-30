@@ -17,15 +17,21 @@ int main() {
     // cadastro das cartas:
     printf("Cadastro de Cartas de Cidades\n");
 
-    //solicitar dados da cidade
+    // solicitar dados da cidade
     printf("Digite o código da cidade (ex: A01): ");
     scanf("%s", codigo);  // Leitura do código da cidade
+
+    // Consumir o caractere de nova linha que sobra no buffer após o scanf anterior
+    getchar();  // Limpar o buffer de entrada
 
     printf("Digite o nome da cidade: ");
     scanf(" %[^\n]%*c", nome);  // Leitura do nome da cidade, permitindo espaços
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao);  // Leitura da população
+
+    // Consumir o caractere de nova linha restante
+    getchar();  // Limpar o buffer de entrada
 
     printf("Digite a área da cidade (em km²): ");
     scanf("%f", &area);  // Leitura da área
@@ -34,11 +40,11 @@ int main() {
     scanf("%f", &pib);  // Leitura do PIB
 
     printf("Digite o número de pontos turísticos da cidade: ");
-    scanf("%d", &pontos_turisticos);  // Leitura dos pontos turisticos
+    scanf("%d", &pontos_turisticos);  // Leitura dos pontos turísticos
 
-    // Exibiçao dos dados das cartas:
+    // Exibição dos dados das cartas:
     printf("\nDados da cidade %s (%s):\n", nome, codigo);
-    printf("Populaçao: %d\n", populacao);
+    printf("População: %d\n", populacao);
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f\n", pib);
     printf("Pontos Turísticos: %d\n", pontos_turisticos);
