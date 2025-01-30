@@ -21,6 +21,9 @@ int main() {
     printf("Digite o código da cidade (ex: A01): ");
     scanf("%s", codigo);  // Leitura do código da cidade
 
+    printf("Digite o nome da cidade: ");
+    scanf(" %[^\n]%*c", nome);  // Leitura do nome da cidade, permitindo espaços
+
 
 
     
