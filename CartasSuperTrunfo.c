@@ -10,6 +10,9 @@ int main() {
     char codigo[5]; // Código da cidade, por exemplo: A01, B02
     char nome[50]; // Nome da cidade
     int populacao; // Populaçao da cidade
+    float area; // Área da cidade
+    float pib; // PIB da cidade
+    
 
     return 0;
 }
